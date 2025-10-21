@@ -3,9 +3,9 @@ entries:
   adservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T11:07:35.103024234+05:30"
+    created: "2025-10-21T11:12:07.087966324+05:30"
     description: A Helm chart for Shopy-shopy adservice Service
-    digest: 56b2ed191011fcb42f155534b1a9635e4421f778edc530b968d244697d929d86
+    digest: b259460169ec028d2c6cb1716e69c05953ea48db00ca9b81bc980dbab5faaaf0
     home: https://github.com/GoogleCloudPlatform/microservices-demo
     keywords:
     - microservice
@@ -24,9 +24,9 @@ entries:
   cartservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T11:07:35.103302265+05:30"
+    created: "2025-10-21T11:12:07.088376749+05:30"
     description: A Helm chart for Shopy-shopy Cart Service
-    digest: 6cdc7e3284ee15aee2e5f6057a4d383181c137a5c07ea86cadd6dc1c34a0527b
+    digest: 131bd517b899ae0a0ce9804ffe69c960428a10f45efd1675a0e69273cd082c29
     home: https://github.com/GoogleCloudPlatform/microservices-demo
     keywords:
     - microservice
@@ -45,9 +45,9 @@ entries:
   checkoutservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T11:07:35.103539315+05:30"
+    created: "2025-10-21T11:12:07.088688999+05:30"
     description: A Helm chart for Shopy-shopy checkoutservice Service
-    digest: a59603f4a5f40205f73d7b39365094f4ff1c51a0621c05e57f696341a40790e9
+    digest: f5ff5344dde142144eac7ba8d34948536f436ff6ab8c843045905ed6ca33b73c
     home: https://github.com/GoogleCloudPlatform/microservices-demo
     keywords:
     - microservice
@@ -66,9 +66,9 @@ entries:
   currencyservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T11:07:35.103784609+05:30"
+    created: "2025-10-21T11:12:07.08895284+05:30"
     description: A Helm chart for Shopy-shopy currencyservice Service
-    digest: 53f86cb4f2a37877cbb71da889cd78a4b47a4f97b84954f2d443451754f58d99
+    digest: 23cb71b6f06b425ec04063926b77aeca7169b1b1eadb4e12a7296645889b1c34
     home: https://github.com/GoogleCloudPlatform/microservices-demo
     keywords:
     - microservice
@@ -87,9 +87,9 @@ entries:
   emailservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T11:07:35.104006023+05:30"
+    created: "2025-10-21T11:12:07.089179692+05:30"
     description: A Helm chart for Shopy-shopy emailservice Service
-    digest: 643b1416a1e5ce162c06a548f659f61848505356a1c809eb3958b483abf6c08e
+    digest: 1b014ee1aa08f346d56ee4970c89a4d5eb23955ccd1fbaea78e4ed740e25418f
     home: https://github.com/GoogleCloudPlatform/microservices-demo
     keywords:
     - microservice
@@ -108,9 +108,9 @@ entries:
   frontend:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T11:07:35.104274735+05:30"
+    created: "2025-10-21T11:12:07.089472277+05:30"
     description: A Helm chart for Shopy-shopy Frontend Service
-    digest: 05f0683912b01e048422936919d8598df963b59b1deb2bfef82ab345f7402338
+    digest: 2854e2e01a7f74b1779b36c3c0409b06cbfa1707123e217a3991017674569c52
     home: https://github.com/GoogleCloudPlatform/microservices-demo
     keywords:
     - microservice
@@ -129,9 +129,9 @@ entries:
   loadgenerator:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T11:07:35.104490659+05:30"
+    created: "2025-10-21T11:12:07.089688488+05:30"
     description: A Helm chart for Shopy-shopy loadgenerator Service
-    digest: cc2ed41b64571e46912ee7fba2ba78d8a9de6f0502416893ee9aee0749056b95
+    digest: 08c591a28505221cbd9d32b4ab4de9ca3b32b754543b0f4b3397972697bea902
     home: https://github.com/GoogleCloudPlatform/microservices-demo
     keywords:
     - microservice
@@ -150,9 +150,9 @@ entries:
   paymentservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T11:07:35.104763735+05:30"
+    created: "2025-10-21T11:12:07.089925453+05:30"
     description: A Helm chart for Shopy-shopy paymentservice Service
-    digest: f36730802f3130a7373ce92022965938cbd56e5454f5b6fcac927bd004ce3b77
+    digest: 8f6c2e10297adb19f9be294e04923896217a43454657a61f298c422a4180b75e
     home: https://github.com/GoogleCloudPlatform/microservices-demo
     keywords:
     - microservice
@@ -171,9 +171,9 @@ entries:
   productcatalogservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T11:07:35.104979351+05:30"
+    created: "2025-10-21T11:12:07.090143326+05:30"
     description: A Helm chart for Shopy-shopy productcatalogservice Service
-    digest: 77d273fc431fbf269dd6738050cf62b607ed8421d7e2fa02bc862657d5291420
+    digest: 0b4db123b1d418c808297f57451711390290368ae2126fc40af4f30eb8de7167
     home: https://github.com/GoogleCloudPlatform/microservices-demo
     keywords:
     - microservice
@@ -192,9 +192,9 @@ entries:
   recommendationservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T11:07:35.105372399+05:30"
+    created: "2025-10-21T11:12:07.090372305+05:30"
     description: A Helm chart for Shopy-shopy recommendationservice Service
-    digest: e02c2a116f96cd59159502863bc4bb3903643ac4c32ea50ad770e4c3bf68790e
+    digest: ef4e015d23a6aa2913979d08f2f79900d173c5437f453b65828cf62762b8c4b8
     home: https://github.com/GoogleCloudPlatform/microservices-demo
     keywords:
     - microservice
@@ -213,9 +213,9 @@ entries:
   shippingservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T11:07:35.106076819+05:30"
+    created: "2025-10-21T11:12:07.090600193+05:30"
     description: A Helm chart for Shopy-shopy shippingservice Service
-    digest: 1340afbaf14623f019e07bc4a44e8b7a42adc309ba77f414dba94cfc69d7bd23
+    digest: ed2cb5349e5de9b527bc845e3381d1f35eb18e2832d90c527f71aa2c4cc00a78
     home: https://github.com/GoogleCloudPlatform/microservices-demo
     keywords:
     - microservice
@@ -231,4 +231,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/shippingservice-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-21T11:07:35.102643866+05:30"
+generated: "2025-10-21T11:12:07.087395657+05:30"
