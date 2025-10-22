@@ -3,7 +3,7 @@ entries:
   adservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T13:42:37.196118328+05:30"
+    created: "2025-10-22T18:24:26.05505075+05:30"
     description: A Helm chart for Shopy-shopy adservice Service
     digest: b259460169ec028d2c6cb1716e69c05953ea48db00ca9b81bc980dbab5faaaf0
     home: https://github.com/GoogleCloudPlatform/microservices-demo
@@ -19,12 +19,12 @@ entries:
     - https://github.com/GoogleCloudPlatform/microservices-demo
     type: application
     urls:
-    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/adservice-0.1.0.tgz
+    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/charts/adservice-0.1.0.tgz
     version: 0.1.0
   cartservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T13:42:37.196606832+05:30"
+    created: "2025-10-22T18:24:26.055398469+05:30"
     description: A Helm chart for Shopy-shopy Cart Service
     digest: 29e1a6eccb04986fe59788c835e01853966cd8205ebfb5138dcf909c9ee91cc3
     home: https://github.com/GoogleCloudPlatform/microservices-demo
@@ -40,12 +40,12 @@ entries:
     - https://github.com/GoogleCloudPlatform/microservices-demo
     type: application
     urls:
-    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/cartservice-0.1.0.tgz
+    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/charts/cartservice-0.1.0.tgz
     version: 0.1.0
   checkoutservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T13:42:37.19713937+05:30"
+    created: "2025-10-22T18:24:26.05571686+05:30"
     description: A Helm chart for Shopy-shopy checkoutservice Service
     digest: f5ff5344dde142144eac7ba8d34948536f436ff6ab8c843045905ed6ca33b73c
     home: https://github.com/GoogleCloudPlatform/microservices-demo
@@ -61,12 +61,12 @@ entries:
     - https://github.com/GoogleCloudPlatform/microservices-demo
     type: application
     urls:
-    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/checkoutservice-0.1.0.tgz
+    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/charts/checkoutservice-0.1.0.tgz
     version: 0.1.0
   currencyservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T13:42:37.197630071+05:30"
+    created: "2025-10-22T18:24:26.056030546+05:30"
     description: A Helm chart for Shopy-shopy currencyservice Service
     digest: 23cb71b6f06b425ec04063926b77aeca7169b1b1eadb4e12a7296645889b1c34
     home: https://github.com/GoogleCloudPlatform/microservices-demo
@@ -82,12 +82,12 @@ entries:
     - https://github.com/GoogleCloudPlatform/microservices-demo
     type: application
     urls:
-    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/currencyservice-0.1.0.tgz
+    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/charts/currencyservice-0.1.0.tgz
     version: 0.1.0
   emailservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T13:42:37.198135074+05:30"
+    created: "2025-10-22T18:24:26.056295626+05:30"
     description: A Helm chart for Shopy-shopy emailservice Service
     digest: 1b014ee1aa08f346d56ee4970c89a4d5eb23955ccd1fbaea78e4ed740e25418f
     home: https://github.com/GoogleCloudPlatform/microservices-demo
@@ -103,12 +103,12 @@ entries:
     - https://github.com/GoogleCloudPlatform/microservices-demo
     type: application
     urls:
-    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/emailservice-0.1.0.tgz
+    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/charts/emailservice-0.1.0.tgz
     version: 0.1.0
   frontend:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T13:42:37.198614836+05:30"
+    created: "2025-10-22T18:24:26.056631717+05:30"
     description: A Helm chart for Shopy-shopy Frontend Service
     digest: 2854e2e01a7f74b1779b36c3c0409b06cbfa1707123e217a3991017674569c52
     home: https://github.com/GoogleCloudPlatform/microservices-demo
@@ -124,12 +124,12 @@ entries:
     - https://github.com/GoogleCloudPlatform/microservices-demo
     type: application
     urls:
-    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/frontend-0.1.0.tgz
+    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/charts/frontend-0.1.0.tgz
     version: 0.1.0
   loadgenerator:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T13:42:37.198908282+05:30"
+    created: "2025-10-22T18:24:26.056918252+05:30"
     description: A Helm chart for Shopy-shopy loadgenerator Service
     digest: 6db194116f9c3f19b6d82670bfdf867d534278e00fa173527f4b851fcbe2e4aa
     home: https://github.com/GoogleCloudPlatform/microservices-demo
@@ -145,12 +145,12 @@ entries:
     - https://github.com/GoogleCloudPlatform/microservices-demo
     type: application
     urls:
-    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/loadgenerator-0.1.0.tgz
+    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/charts/loadgenerator-0.1.0.tgz
     version: 0.1.0
   paymentservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T13:42:37.19937566+05:30"
+    created: "2025-10-22T18:24:26.057247343+05:30"
     description: A Helm chart for Shopy-shopy paymentservice Service
     digest: 8f6c2e10297adb19f9be294e04923896217a43454657a61f298c422a4180b75e
     home: https://github.com/GoogleCloudPlatform/microservices-demo
@@ -166,12 +166,12 @@ entries:
     - https://github.com/GoogleCloudPlatform/microservices-demo
     type: application
     urls:
-    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/paymentservice-0.1.0.tgz
+    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/charts/paymentservice-0.1.0.tgz
     version: 0.1.0
   productcatalogservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T13:42:37.199801543+05:30"
+    created: "2025-10-22T18:24:26.0575288+05:30"
     description: A Helm chart for Shopy-shopy productcatalogservice Service
     digest: 0b4db123b1d418c808297f57451711390290368ae2126fc40af4f30eb8de7167
     home: https://github.com/GoogleCloudPlatform/microservices-demo
@@ -187,12 +187,12 @@ entries:
     - https://github.com/GoogleCloudPlatform/microservices-demo
     type: application
     urls:
-    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/productcatalogservice-0.1.0.tgz
+    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/charts/productcatalogservice-0.1.0.tgz
     version: 0.1.0
   recommendationservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T13:42:37.200283165+05:30"
+    created: "2025-10-22T18:24:26.057817062+05:30"
     description: A Helm chart for Shopy-shopy recommendationservice Service
     digest: ef4e015d23a6aa2913979d08f2f79900d173c5437f453b65828cf62762b8c4b8
     home: https://github.com/GoogleCloudPlatform/microservices-demo
@@ -208,12 +208,12 @@ entries:
     - https://github.com/GoogleCloudPlatform/microservices-demo
     type: application
     urls:
-    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/recommendationservice-0.1.0.tgz
+    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/charts/recommendationservice-0.1.0.tgz
     version: 0.1.0
   shippingservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-21T13:42:37.200672103+05:30"
+    created: "2025-10-22T18:24:26.058099178+05:30"
     description: A Helm chart for Shopy-shopy shippingservice Service
     digest: ed2cb5349e5de9b527bc845e3381d1f35eb18e2832d90c527f71aa2c4cc00a78
     home: https://github.com/GoogleCloudPlatform/microservices-demo
@@ -229,6 +229,6 @@ entries:
     - https://github.com/GoogleCloudPlatform/microservices-demo
     type: application
     urls:
-    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/shippingservice-0.1.0.tgz
+    - https://raw.githubusercontent.com/Amaldeep98/microservice-helm-charts/main/charts/shippingservice-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-21T13:42:37.195210431+05:30"
+generated: "2025-10-22T18:24:26.054553591+05:30"
