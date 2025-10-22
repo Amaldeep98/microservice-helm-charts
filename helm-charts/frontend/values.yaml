@@ -1,0 +1,99 @@
+# Default values for frontend
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: 183611507646.dkr.ecr.us-east-1.amazonaws.com/microservices/frontend
+  pullPolicy: IfNotPresent
+  tag: "0.1.0"
+
+imagePullSecrets:
+  - name: ecr-secret
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: true
+  # Annotations to add to the service account
+  annotations: {}
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name: ""
+
+podAnnotations: {}
+
+podSecurityContext:
+  fsGroup: 1000
+  runAsGroup: 1000
+  runAsNonRoot: true
+  runAsUser: 1000
+
+securityContext:
+  allowPrivilegeEscalation: false
+  capabilities:
+    drop:
+      - ALL
+  privileged: false
+  readOnlyRootFilesystem: true
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8080
+
+# External service for LoadBalancer
+externalService:
+  enabled: true
+  type: LoadBalancer
+  port: 80
+  targetPort: 8080
+
+# Environment variables
+env:
+  PORT: "8080"
+  PRODUCT_CATALOG_SERVICE_ADDR: "productcatalogservice:3550"
+  CURRENCY_SERVICE_ADDR: "currencyservice:7000"
+  CART_SERVICE_ADDR: "cartservice:7070"
+  RECOMMENDATION_SERVICE_ADDR: "recommendationservice:8080"
+  SHIPPING_SERVICE_ADDR: "shippingservice:50051"
+  CHECKOUT_SERVICE_ADDR: "checkoutservice:5050"
+  AD_SERVICE_ADDR: "adservice:9555"
+  SHOPPING_ASSISTANT_SERVICE_ADDR: "shoppingassistantservice:80"
+  ENABLE_PROFILER: "0"
+
+# Optional environment variables
+optionalEnv:
+  # ENV_PLATFORM: "aws"  # One of: local, gcp, aws, azure, onprem, alibaba
+  # CYMBAL_BRANDING: "true"
+  # ENABLE_ASSISTANT: "true"
+  # FRONTEND_MESSAGE: "Replace this with a message you want to display on all pages."
+  # PACKAGING_SERVICE_URL: ""
+
+resources:
+  limits:
+    cpu: 200m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 64Mi
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 100
+  targetCPUUtilizationPercentage: 80
+  # targetMemoryUtilizationPercentage: 80
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+# Istio sidecar configuration
+istio:
+  enabled: false
+  rewriteAppHTTPProbers: "true"
