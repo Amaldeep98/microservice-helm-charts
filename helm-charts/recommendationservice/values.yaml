@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: 183611507646.dkr.ecr.us-east-1.amazonaws.com/microservices/recommendationservice
   pullPolicy: IfNotPresent
-  tag: "0.1.0"
+  tag: v0.10.3
 
 imagePullSecrets:
   - name: ecr-secret
