@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: 183611507646.dkr.ecr.us-east-1.amazonaws.com/microservices/currencyservice
+  repository: 183611507646.dkr.ecr.us-east-1.amazonaws.com/microservices-demo/currencyservice
   pullPolicy: IfNotPresent
   tag: v0.10.3
 
