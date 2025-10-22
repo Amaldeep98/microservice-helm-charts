@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: 183611507646.dkr.ecr.us-east-1.amazonaws.com/microservices/cartservice
   pullPolicy: IfNotPresent
-  tag: "0.1.0"
+  tag: "${LATEST_TAG}"
 
 imagePullSecrets:
   - name: ecr-secret
